@@ -11,6 +11,8 @@ public interface Obchod {
     public void nactiNabidku(String fileName);
     public void vymazNabidku();
 
-    public List<Produkt> nabidka();
+    public List<String> vypis();
+
+    public void napln();
 
 }
